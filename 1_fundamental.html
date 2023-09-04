@@ -1,0 +1,47 @@
+<!-- HTML (HyperText Markup Language) is the basic building block of the Web. 
+    It defines the meaning and structure of web content. -->
+<!doctype html> <!-- Telling the browser what version of HTML it is engaging with,
+    html by default here means the HTML5 version, in other versions exclusivity is required!-->
+<!-- HTML consists of a series of elements, which you we to enclose, wrap, or mark up different parts of content 
+    to make it appear or act in a certain way. 
+    The enclosing tags can make content into a hyperlink to connect to another page, italicize words, and so on -->
+<html lang="en-US"><!-- Contains the Contents of a web page -->
+    <head>
+        <!-- The head of an HTML document is the part that is not displayed in the web browser when the page is loaded. 
+            It contains information such as the page <title>, links to CSS (if you choose to style your HTML content with CSS),
+            links to custom favicons, and 
+            other metadata (data about the HTML, such as the author, and important keywords that describe the document). 
+            Web browsers use information contained in the head to render the HTML document correctly -->
+        <meta charset="utf-8">
+        <meta name="authur" content="Mj Islam Mir" >
+        <meta name="description" content="This is the practice session of HTML CSS Javascript">
+        <!-- Feeding http header with the information -->
+        <meta http-equiv="refresh" content="2000"> <!--Other http-equivalent values contentext-type,content-security-policy, default-style-->
+        <!-- Metadata is data that describes data, and HTML has an "official" way of adding metadata to a document — the <meta> element. -->
+        <!-- The <meta> HTML element represents metadata that cannot be represented by other HTML meta-related elements, 
+            like <base>, <link>, <script>, <style> or <title> -->
+        <!-- document's character encoding — the character set that the document is permitted to use. utf-8 is a universal character set that includes pretty much any character from any human language.  -->
+        <meta property="og:author" content="Mj islam Mir">
+        <!-- above is the way of using metadata using Open Graph Data, a metadata protocal introduced by facebook  -->
+        <!-- One effect of this is that when you link to MDN Web Docs on Facebook, the link appears along with an image and description: a richer experience for users. -->
+        <title><!--used to add a title to the html document-->
+            <!-- titile element is metadata that represents the title of the overall HTML document (not the document's content.) -->
+            HMTL CSS Practices
+            <!-- Contains the Title of the Webpage say =: MyWebSite HomePage
+            when page is Bookmarked, the name of the Bookmark is taken from the title.   -->
+        </title> 
+        <!-- Adding Icon to a webpage that appears in the website -->
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <!-- Linking css file -->
+        <link rel="stylesheet" href="sourceFile.css">
+        <!-- Linking Js file  -->
+        <script src="SourceFile.js" defer></script> 
+        <!-- Defer:> defer the loading of javascript till HTML is loaded, there are other options as well such as asynch-->
+
+
+    </head>
+    <body>
+        <!-- Paragraph -->
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse aliquam eos vero et impedit est voluptates exercitationem molestiae sequi cumque neque, deleniti distinctio nemo, ipsum dolores ipsam soluta tempore laborum?</p>
+    </body>
+</html>

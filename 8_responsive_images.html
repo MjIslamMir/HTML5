@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <meta name="author" content="Mujahidul Islam">
+        <meta name="description" content="Working with Responsive Images">
+        <title>Working with Responsive Images</title>
+    </head>
+    <body>
+        <div>
+            <h1>Working with Responsive Images</h1>
+            <p>images that work well on devices with 
+                widely differing screen sizes, resolutions, and other such features <br>
+                <img
+                srcset="elva-fairy-320w.jpg, elva-fairy-480w.jpg 1.5x, elva-fairy-640w.jpg 2x"
+                src="elva-fairy-640w.jpg"
+                alt="Elva dressed as a fairy" />
+                <br>
+                <picture>
+                    <source media="(max-width: 799px)" srcset="elva-480w-close-portrait.jpg" />
+                    <source media="(min-width: 800px)" srcset="elva-800w.jpg" />
+                    <img src="elva-800w.jpg" alt="Chris standing up holding his daughter Elva" />
+                </picture>
+            
+            </p>
+        </div>
+    </body>
+</html>

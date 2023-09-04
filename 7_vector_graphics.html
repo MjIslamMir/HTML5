@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html leng="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Mujahi dul islam">
+        <meta name="description" content="Working with Vector Graphics">
+        <title>Working with Vector Graphics</title>
+    </head>
+    <body>
+        <div>
+            <h1>Working with Vector Graphics</h1>
+            <p style="width:80%">SVG is an XML-based language for describing vector images. 
+                It's basically markup, like HTML, except that you've got many different elements for defining 
+                the shapes you want to appear in your image, and the effects you want to apply to those shapes. 
+                SVG is for marking up graphics, not content. At the simplest end of the spectrum, 
+                you've got elements for creating simple shapes, like &ltcircle&gt and &ltrect&gt. 
+                More advanced SVG features include &ltfeColorMatrix&gt (transform colors using a transformation matrix,) 
+                &ltanimate&gt (animate parts of your vector graphic,) and 
+                &ltmask&gt (apply a mask over the top of your image.)</p>
+            <div>
+                <svg
+                    version="1.1"
+                    baseProfile="full"
+                    width="300"
+                    height="200"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect width="100%" height="100%" fill="black" />
+                    <circle cx="150" cy="100" r="90" fill="white" />
+                    </svg>
+                <svg width="100%" height="100%">
+                    <rect width="100%" height="100%" fill="red" />
+                    <circle cx="100%" cy="100%" r="150" fill="blue" stroke="black" />
+                    <polygon points="120,0 240,225 0,225" fill="green"/>
+                    <text x="50" y="100" 
+                        font-family="Verdana" font-size="55"
+                        fill="white" 
+                        stroke="black" 
+                        stroke-width="2">
+                            SVG
+                    </text>
+                </svg>
+                    
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Mujahi dul Islam">
+        <meta name="description" content="Multimedia embedding">
+        <title>Working with Multimedia</title>
+    </head>
+    <body>
+        <div>
+            <h1>Embedding Images</h1>
+            <p><a href="https://www.google.com">
+                <img src="./logo.PNG" alt="Alternate Dimension" width="200px" height="150px" ></a><br> Alternate Dimension
+            </p>
+        </div>
+        <div>
+            <h1>Figure Caption</h1>
+            <figure>
+                <a href="https://google.com">
+                    <img src="./logo.PNG" alt="Alternate Dimension" width="200px" height="150px">
+                </a>
+                <figcaption>Alternate Dimension</figcaption>
+            </figure>
+        </div>
+        <div>
+            <h1>Embedding Video</h1>
+            <video src="./What is Async JavaScript-.mp4" 
+                controls 
+                width="500px"
+                loop
+                muted
+                preload="auto"
+                poster="./logo.PNG">
+                Async Js
+            </video>
+            <!-- other options are autoplay, loop, muted, poster -->
+        </div>
+        <div> <h1>Embedding Audio</h1>
+            <audio src="./Dear Marie.mp3" controls 
+            auto 
+            loop
+            width="500px"></audio>
+        </div>
+        <div>
+            <h1>Adding Subtitle Track</h1>
+            <video controls width="500px">
+                <source src="./What is Async JavaScript-.mp4" type="video/mp4"/>
+                <source src="./What is Async JavaScript-.mp4" type="video/webm"/>
+                <track kind="subtitles" src="subtitles_es.vtt" srclang="es" label="Spanish" />
+            </video>
+        </div>
+    </body>
+
+
+</html>

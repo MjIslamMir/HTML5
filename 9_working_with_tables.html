@@ -1,0 +1,57 @@
+<!Doctype html>
+<html lang="en-US">
+    <head>
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <meta name="author" content="Mujahi dul Islam">
+        <meta name="description" content="Working with Tables">
+        <title>Working with tables</title>
+        <style>
+            table,th,td{
+                border: solid rgb(255, 255, 255) 3px;
+                border-collapse:collapse ;
+                padding: 20px;
+                margin: 10px;
+                text-align: center;
+            }
+            th, td {
+                background-color: #96D4D4;
+                border-radius: 10px;
+                }
+                td{
+                    width: 150px;
+                }
+            thead{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>Working with Tables</h1>
+            <table>
+                <thead>Table Header</thead>
+                <tbody>
+                    <tr>
+                        <th colspan="2">Name</th>
+                        <th>Age</th>
+                        <th>address</th>
+                      </tr>
+                      <tr>
+                        <td>Mujahidul</td>
+                        <td>Islam</td>
+                        <td rowspan="2">30</td>
+                        <td rowspan="2">Srinagar</td>
+                      </tr>
+                      <tr>
+                        <td>MJ </td>
+                        <td>Islam</td>
+                      </tr>
+                </tbody>
+                <tfoot>
+                    Table Footer
+                </tfoot>
+
+            </table>
+        </div>
+    </body>
+</html>

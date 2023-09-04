@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Formating Text</title>
+    </head>
+    <body>
+        <div>
+            <div><h1>Headings</h1>
+                There are six heading elements: h1, h2, h3, h4, h5, and h6. Each element represents a different 
+                level of content in the document; 
+                <h1>h1 represents the main heading, </h1> 
+                <h2>h2 represents subheadings,</h2> 
+                <h3> h3 represents sub-subheadings, </h3>
+                <h4> Then h4</h4> 
+                <h5>Then h5</h5>  
+                <h6>and finally h6</h6>
+                <p><b>Paragraph: &ltp&gt</b> Search engines indexing your page consider the contents of 
+                    headings as important keywords 
+                    for influencing the page's search rankings. Without headings, 
+                    your page will perform poorly in terms of SEO (Search Engine Optimization).</p>
+            </div>
+            <div>It is always a good idea to use semantic tags because a semantic element, 
+                which gives the text it wraps around, "the role" (or meaning) </div>
+            <div>
+                <h1>Lists: Ordered List, Unordered List, Nested List and Description List</h1>
+                <h3>Ordered List</h3>
+                <ol type="1">
+                    <li>Tea</li>
+                    <li>Coffee</li>
+                    <li>Juice</li>
+                </ol>
+                <h3>Unordered List</h3>
+                <ul >
+                    <li>Tea</li>
+                    <li>Coffee</li>
+                    <li>Juice</li>
+                </ul>
+                <h3>Nested Lists</h3>
+                <ol type="A">
+                    
+                    <li>Tea</li>
+                    <li>
+                        <ol><li>Cofee</li>
+                            <li>Juice</li>
+                        </ol>
+                    </li>
+                </ol>
+                <h3>Description List</h3>
+                <dl>
+                    <dt>Tea</dt>
+                    <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, nisi.</dd>
+                    <dt>Coffee</dt>
+                    <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, ipsum?</dd>
+                    <dt>Juice</dt>
+                    <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, architecto.</dd>
+                    <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, incidunt!</dd>
+                </dl>
+            </div>
+        <div>
+            <ol>
+                <li><b>Italicize: </b> <i>This is Italicized Text using &lti&gt tag</i></li>
+                <li><b>Emphesis:</b>  <em>This is emphesised Text,using &lt emp &gt tag similar to &lti&gt tag 
+                    however stresses the importance</em></li>
+                <li><b>Strong: </b> <Strong>This is strong tag text using </Strong>&ltstrong&gt tag</li>
+                <li><b>Span: </b> <span>This is &ltspan&gt tag content, it is an inline tag alternative 
+                    to block level tag &ltdiv&gt</span></li>
+                <li><b>Underline: </b>This is underlined text using &ltu&gt tag </li>
+                <li><b>Delete</b> 
+                    <del>This is deleted text represents the correction made</del>
+                    using &ltdel&gt tage</li>
+                <li><b>Abbreviation: </b><abbr title="HyperText Markup Language">HTML</abbr> using &ltabbr&gt tage</li>
+                <li><b>Address: </b><address>This is my address, is a block level element</address>using &ltaddress&gt tag</li>
+                <li><b>Subscript:</b> log<sub>2</sub>x </li>
+                <li><b>Superscript:</b> e<sup>x</sup></li>
+                <li><b>Code: </b> To write the computer code for display rather than execution on website eg => <code>&ltcode&gt printf("Hello this is jus a print statement")&ltcode&gt</code></li>
+                <li><b>pre: used to retain the text with spaces as it is written: <pre>This     is the print statement <code>printf("Hello  world ")</code> is the     : code snippet</pre></b></li>
+                <li><b>var: </b>used to represent the variable <var>myVar</var></li>
+                <li><b>kbd:</b>For marking up keyboard (and other types of) input entered into the computer : Eg 
+                    to select all the text on the webpage <kbd>Ctrl</kbd><kbd>a</kbd></li>
+                <li><b>samp: </b>To represent the output of a example code: <code>console.log("Hello World")</code> => example samp: <samp>Hello World</samp></li>
+
+            </ol>
+        </div>
+        <div>
+            <h1>Quotations:</h1>
+            <p>HTML also has features available for marking up quotations; 
+                which element you use depends on whether you are marking up a block or inline quotation.</p>
+            <p>If a section of block level content (be it a paragraph, multiple paragraphs, a list, etc.) 
+                is quoted from somewhere else, you should wrap it inside a <b>&ltblockquote&gt</b> 
+                element to signify this, and include a URL pointing to the source of the quote inside a <b>cite</b>  
+                attribute. </p>
+            <h3>Inline blockquote</h3>
+                <q>The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or
+                    <em>HTML Block Quotation Element</em>) indicates that the enclosed text is an
+                    extended quotation.</q> 
+            <h3>Block Level blockquote</h3>
+            <blockquote
+                cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">    
+                    The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or
+                    <em>HTML Block Quotation Element</em>) indicates that the enclosed text is
+                    an extended quotation.
+            </blockquote>
+        </div>    
+        
+    </div>
+        
+    </body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Mujahi dul islam">
+        <meta name="description" content="Working with Iframe">
+        <title>Working with Iframe</title>
+    </head>
+    <body>
+        <div>
+            <h1>Working with iframe, embed and object</h1>
+            <p>&ltiframe&gts are for embedding other web pages, and the &ltobject&gt and &ltembed&gt allow us to embed 
+                external resources such as PDF files.</p>
+            <iframe src="./What is Async JavaScript-.mp4" 
+                frameborder="0" 
+                width="500px" 
+                height="400px" 
+                sandbox
+                > 
+            </iframe>
+            <iframe
+                src="https://developer.mozilla.org/en-US/docs/Glossary"
+                height="500"
+                allowfullscreen
+                sandbox>
+                <p>
+                <a href="/en-US/docs/Glossary">
+                    Fallback link for browsers that don't support iframes
+                </a>
+                </p>
+            </iframe>
+            
+        </div>
+        <div>
+            <h1>Working with &ltobject&gt tag </h1>
+            <object data="./ss.pdf" type="application/pdf" width="800" height="500">
+                <p>
+                  You don't have a PDF plugin, but you can
+                  <a href="./ss.pdf">download the PDF file. </a>
+                </p>
+              </object>
+        </div>
+        <div>
+            <h1>Working with &ltembed&gt tag </h1>
+            <embed src="./ss.pdf" type="application/pdf" width="800" height="500">
+                <p>
+                  You don't have a PDF plugin, but you can
+                  <a href="./ss.pdf">download the PDF file. </a>
+                </p>
+              </embed>
+        </div>
+    </body>
+
+</html>
